@@ -10,7 +10,7 @@ os.system('tput setaf 6')
 print(',,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,')
 os.system('tput setaf 9')
 passwd=input("Pass Product Key: ")
-dataset=pandas.read_csv('dataset.csv')
+dataset=pandas.read_csv('./Data/dataset.csv')
 X=dataset['featureone'].values.reshape(len(dataset['featureone']),1)
 y=dataset['Estimation']
 
